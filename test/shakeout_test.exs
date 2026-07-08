@@ -4,4 +4,8 @@ defmodule ShakeoutTest do
   test "hello greets the world" do
     assert Shakeout.hello() == :world
   end
+
+  test "reverse reverses the given string" do
+    assert Shakeout.reverse("shakeout") == "tuoekahs"
+  end
 end
