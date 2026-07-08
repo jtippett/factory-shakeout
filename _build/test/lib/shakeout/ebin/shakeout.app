@@ -1,0 +1,1 @@
+{application,shakeout,[{modules,['Elixir.Shakeout']},{optional_applications,[]},{applications,[kernel,stdlib,elixir]},{description,[115,104,97,107,101,111,117,116]},{registered,[]},{vsn,[48,46,49,46,48]}]}.
