@@ -12,4 +12,8 @@ defmodule ShakeoutTest do
   test "whisper leaves already-lowercase strings intact" do
     assert Shakeout.whisper("hello") == "hello..."
   end
+
+  test "whisper twice repeats the whispered result" do
+    assert Shakeout.whisper_twice("HELLO") == "hello... hello..."
+  end
 end
