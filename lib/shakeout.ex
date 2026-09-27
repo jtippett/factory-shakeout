@@ -1,3 +1,4 @@
 defmodule Shakeout do
-  def hello, do: :hello
+  def hello, do: :world
+  def reverse(string), do: String.reverse(string)
 end
